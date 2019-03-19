@@ -1,0 +1,46 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("Sfondo.jpg");
+}
+#center{
+  width: 400px;
+  margin: auto;
+}
+header > img{
+  width: 80px;
+  height: 80px;
+}
+#nospazio{
+  margin-top: 2px;
+}
+main > button{
+  margin-bottom: 10px;
+}
+.white_word{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.white_word > span{
+  background-color: #bc8a16;
+  border-radius: 50%;
+}
+.email{
+  border: 1px solid black;
+}
+.email > .blue_email{
+  background-color: #bcc6d6;
+}
+.email > .white_email{
+  background-color: #ffffff;
+}
+.email .testo_email{
+  color: #a8a49c;
+}
+#footer{
+  text-align: center;
+}

@@ -6,6 +6,34 @@
     <title>Gmail</title>
   </head>
   <body>
+    <div id="center">
+      <!-- per l'immagine, la scritta e la prima linea -->
+      <header>
+        <img src="Gmail.png" alt="Gmail">
+        <span class="white_word">Gmail</span>
+      </header>
+      <hr id="nospazio">
 
+      <!-- per la casella di testo, il bottone,  quanti messaggi ci sono da leggere e l'altra linea-->
+      <main>
+        <input type="text" name="" placeholder="Search">
+        <button>VAI</button>
+        <div class="white_word">
+          You have <span>30</span> unread
+        </div>
+        <hr>
+
+        <!-- creo una sezione per tutte le email e per l'ultima linea -->
+        <section class="email">
+          <div class="blue_email"><input type="checkbox"><strong>&star; Oggetto della email - </strong><span class="testo_email">testo della email...</span></div>
+          <div class="white_email"><input type="checkbox"><strong>&star; Oggetto della email - </strong><span class="testo_email">testo della email...</span></div>
+          <div class="blue_email"><input type="checkbox"><strong>&star; Oggetto della email - </strong><span class="testo_email">testo della email...</span></div>
+          <div class="blue_email"><input type="checkbox"><strong>&star; Oggetto della email - </strong><span class="testo_email">testo della email...</span></div>
+        </section>
+        <hr>
+      </main>
+      <!-- fine pagina -->
+      <footer id="footer" class="white_word">GMail <em>powered by Davide</em></footer>
+    </div>
   </body>
 </html>
